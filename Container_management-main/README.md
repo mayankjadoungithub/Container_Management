@@ -24,6 +24,8 @@ The Application sends a request to the server, which execute the "locker run!! c
 The application allar users to stop all The running containoy with a single button click.
 This is achieved by sending a request to I server, which executes "docker stop" command.
 docker stop $(docker ps-q), lists the container I Ds of all running containers.
+
+
 **4. Remove containers:**
 users have the option to remove all stopped containers grom the system by clicking the "Remove Containers" button. 
 The App sends a request to the server, which uses the "daker run " command to delete the stopped containers.
