@@ -9,10 +9,13 @@
 
 Key Features:-
 
+
 **1. List Containers and Images**
 The application allow users to view a list of running Docker containers and available Docker images on the system the list Includes essential details such as container ID, image, command, creation timestamp status, and name.
    
 *docker ps I tail - n + 2 is used to list the running container & remove the header from output docker ps -a | tail -n+2*
+
+
 **2. Launch Containers:**
 →user can launch new Docker container by providing a containerc name & selecting an image from a dropdown menu.
 The Application sends a request to the server, which execute the "locker run!! command to create and launch the container.
