@@ -8,6 +8,7 @@
 ->The web app communicate with the Docker daemon on the serwer - side to perform various Docker operations based input On user
 
 Key Features:-
+
 **1. List Containers and Images**
 The application allow users to view a list of running Docker containers and available Docker images on the system the list Includes essential details such as container ID, image, command, creation timestamp status, and name.
    
